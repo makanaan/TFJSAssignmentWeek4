@@ -5,16 +5,17 @@
 <script src="rps-dataset.js"></script>
 </head>
 <body>
+	<center>
 	<div>
 		<div>
 			<video autoplay playsinline muted id="wc" width="224" height="224"></video>
 		</div>
 	</div>
-	<button type="button" id="0" onclick="handleButton(this)" >Rock</button>
-	<button type="button" id="1" onclick="handleButton(this)" >Paper</button>
-	<button type="button" id="2" onclick="handleButton(this)" >Scissors</button>
-	<button type="button" id="3" onclick="handleButton(this)" >Spock</button>
-	<button type="button" id="4" onclick="handleButton(this)" >Lizard</button>
+	<button type="button" id="0" onclick="handleButton(this)" width="50" height="50">Rock</button> </br>
+	<button type="button" id="1" onclick="handleButton(this)" width="50" height="50">Paper</button></br>
+	<button type="button" id="2" onclick="handleButton(this)" width="50" height="50">Scissors</button></br>
+	<button type="button" id="3" onclick="handleButton(this)" width="50" height="50">Spock</button></br>
+	<button type="button" id="4" onclick="handleButton(this)" width="50" height="50">Lizard</button></br>
 	<div id="rocksamples">Rock Samples:</div>
 	<div id="papersamples">Paper Samples:</div>
 	<div id="scissorssamples">Scissors Samples:</div>
@@ -26,6 +27,7 @@
 	<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
     <button type="button" id="saveModel" onclick="saveModel()" >Download Model</button>
 	<div id="prediction"></div>
+		</center>
 </body>
 
 <script src="index_exercise.js"></script>
